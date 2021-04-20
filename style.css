@@ -1,5 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/emberly');
-
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +14,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: 'Emberly', sans-serif;
+  font-family: 'Fredericka the Great', cursive;
   color: white;
   font-size: 40px;
   text-align: center;
@@ -25,15 +27,16 @@ header {
 
 h1{
   font-size: 7vh;
+  font-weight: 100;
 }
 
 h2 {
-  font-family: 'Emberly', sans-serif;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 30px;
-  line-height: normal;
   background: #FF0080;
   padding: 20px;
   margin-bottom: 50px;
+  font-weight: 300;
 }
 
 main{
