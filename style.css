@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(10,0,93);
+  background: linear-gradient(180deg, rgba(10,0,93,1) 0%, rgba(103,2,195,1) 0%, rgb(12, 8, 11) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Emberly';
+  letter-spacing: 10px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header {
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Emberly';
+  font-size: 30px;
+  line-height: normal;
+  background: #FF0080;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+main{
+  height: auto;
+  min-height: 600px;
+}
+
+.container {
+  width: auto;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  max-width: 300px;
+  width: 100%;
+  filter: drop-shadow(5px 5px 5px #FF0080);
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(3px 10px 10px #FF0080);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.35);
+  transition: transform 5s ease;
+  -webkit-transition: transform 1s ease;
+  -moz-transition: transform 5s ease;
+  -ms-transition: transform 5s ease;
+  -o-transition: transform 5s ease;
+  -webkit-transform: scale(1.35);
+  -moz-transform: scale(1.35);
+  -ms-transform: scale(1.35);
+  -o-transform: scale(1.35);
+}
+
+footer {
+  max-width: 600px;
+  width: 100%px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+p{
+  font-family: 'Pacifico', cursive;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  font-size: 21px;
+}
+
+@media  screen and (max-width:830px) {
+  .container{
+    flex-direction: column;
+    height: auto;
+  }
+}
